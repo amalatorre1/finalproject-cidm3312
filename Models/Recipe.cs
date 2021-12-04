@@ -49,14 +49,7 @@ namespace finalproject_cidm3312.Models
 
         [BindProperty]
         public int Rating {get; set;}
-        public List<UserRecipe> UserRecipes {get; set;} // Nav prop - A user can have many recipes 
-    }
 
-    public class UserRecipe
-    {
-        public int RecipeId {get; set;} // PK, FK1
-        public int UserId {get; set;} // PK, FK2
-        public User User {get; set;} // Nav prop - one user per UserRecipe
-        public Recipe Recipe {get; set;} // Nav prop - one recipe per UserRecipe
-    }
+        public List<User> Users {get; set;} // Nav prop - A user can have many recipes 
+    }
 }
