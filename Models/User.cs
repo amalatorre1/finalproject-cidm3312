@@ -12,18 +12,9 @@ namespace finalproject_cidm3312.Models
     public class User
     {
         public int UserId {get; set;}	// Primary Key
-
-        [BindProperty]
-        [Display(Name = "First Name")]
-        [StringLength(60, MinimumLength = 3)]
-        [Required]
         public string FirstName {get; set;}
-
-        [BindProperty]
-        [Display(Name = "Last Name")]
-        [StringLength(60, MinimumLength = 3)]
-        [Required]
         public string LastName {get; set;}
+        
         public List<Recipe> Recipes {get; set;} // Nav prop - A user can have many recipes         
     }
 }
