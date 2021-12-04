@@ -24,7 +24,7 @@ namespace finalproject_cidm3312.Models
         [StringLength(60, MinimumLength = 3)]
         [Required]
         public string LastName {get; set;}
-        public List<UserRecipe> UserRecipes {get; set;} // Nav prop - A user can have many recipes         
+        public List<Recipe> Recipes {get; set;} // Nav prop - A user can have many recipes         
     }
 }
 
