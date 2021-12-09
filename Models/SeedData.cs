@@ -24,11 +24,50 @@ namespace finalproject_cidm3312.Models
                         FirstName = "Anthony", 
                         LastName = "Bourdain",
                         Recipes = new List<Recipe> {
-                            new Recipe {Title="Tomatillo Salsa Verde", Type="Appetizer", Servings=8, Duration=30, Ingredients="1 pound tomatillos, 1/2 cup finely chopped onion, 1 teaspoon minced garlic, 1 serrano chile peppers, 2 tablespoons chopped cilantro, 1 tablespoon chopped fresh oregano, 1/2 teaspoon ground cumin, 1 teaspoons salt, 2 cups water", Instructions="Place tomatillos, onion, garlic, and chile pepper into a saucepan. Season with cilantro, oregano, cumin, and salt; pour in water. Bring to a boil over high heat, then reduce heat to medium-low, and simmer until the tomatillos are soft, 10 to 15 minutes. Using a blender, carefully puree the tomatillos and water in batches until smooth.", Rating=4},
-                            new Recipe {Title="BLT Sandwich", Type="Main", Servings=1, Duration=15, Ingredients="4 slices bacon 2 leaves lettuce 2 slices tomato 2 slices bread, toasted 1 tablespoon mayonnaise", Instructions="Cook the bacon in a large, deep skillet over medium-high heat until evenly browned, about 10 minutes. Drain the bacon slices on a paper towel-lined plate. Arrange the cooked bacon, lettuce, and tomato slices on one slice of bread. Spread one side of remaining bread slice with the mayonnaise. Bring the two pieces together to make a sandwich.", Rating=2},
-                            new Recipe {Title="Chesapeake Bay Pork Chops", Type="Main", Servings=8, Duration=240, Ingredients="1/2 cup vegetable oil, 1/2 cup apple cider vinegar, 1 tablespoon seafood seasoning (such as Old Bay), 2 cloves minced garlic, 1 tablespoon chopped fresh basil, 1 lime juiced, cracked black pepper to taste, 8 boneless pork chops 1 inch thick", Instructions="Whisk together the vegetable oil, apple cider vinegar, seafood seasoning, minced garlic, basil, lime juice, and black pepper in a bowl, and pour into a resealable plastic bag. Add the pork chops, coat with the marinade, squeeze out excess air, and seal the bag. Marinate in the refrigerator for 4 to 6 hours, flipping periodically. Preheat an outdoor grill for medium-high heat, and lightly oil the grate. Remove the pork chops from the bags. Discard excess marinade. Grill until the pork is no longer pink in the center, 5 to 7 minutes per side. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C).", Rating=4},
-                            new Recipe {Title="Vanilla Ice Cream V", Type="Dessert", Servings=32, Duration=55, Ingredients="2 quarts half-and-half cream,1/2 pint heavy cream, 1 1/2 cups white sugar, 4 teaspoons vanilla extract, 1 pinch salt", Instructions="Combine half-and-half, cream, sugar, vanilla and salt in freezer container of ice cream maker. Freeze according to manufacturer's instructions.", Rating=4},
-                            new Recipe {Title="Holiday Eggnog Pie", Type="Dessert", Servings=8, Duration=110, Ingredients="1 1/4 cups white sugar, 1/4 cup all-purpose flour, 2 cups eggnog, 3 eggs beaten, 1 teaspoon vanilla extract, 1/4 cup unsalted butter melted and cooled slightly, 1 (9 inch) prepared unbaked pie crust thawed", Instructions="Preheat oven to 350 degrees F (175 degrees C). Mix the sugar and flour together in a mixing bowl. Beat in the eggnog, eggs, and vanilla to make a smooth mixture. Stir in the butter. Pour into the prepared pie crust. Bake in preheated oven until the custard is set, 35 to 40 minutes. Cool before serving.", Rating=3}                    
+                            new Recipe {
+                                Title="Tomatillo Salsa Verde", 
+                                Type="Appetizer", 
+                                Servings=8, 
+                                Duration=30, 
+                                Ingredients="1 pound tomatillos, 1/2 cup finely chopped onion, 1 teaspoon minced garlic, 1 serrano chile peppers, 2 tablespoons chopped cilantro, 1 tablespoon chopped fresh oregano, 1/2 teaspoon ground cumin, 1 teaspoons salt, 2 cups water", 
+                                Instructions="Place tomatillos, onion, garlic, and chile pepper into a saucepan. Season with cilantro, oregano, cumin, and salt; pour in water. Bring to a boil over high heat, then reduce heat to medium-low, and simmer until the tomatillos are soft, 10 to 15 minutes. Using a blender, carefully puree the tomatillos and water in batches until smooth.", 
+                                Rating=4
+                                },
+                            new Recipe {
+                                Title="BLT Sandwich", 
+                                Type="Main", 
+                                Servings=1, 
+                                Duration=15, 
+                                Ingredients="4 slices bacon 2 leaves lettuce 2 slices tomato 2 slices bread, toasted 1 tablespoon mayonnaise", 
+                                Instructions="Cook the bacon in a large, deep skillet over medium-high heat until evenly browned, about 10 minutes. Drain the bacon slices on a paper towel-lined plate. Arrange the cooked bacon, lettuce, and tomato slices on one slice of bread. Spread one side of remaining bread slice with the mayonnaise. Bring the two pieces together to make a sandwich.", 
+                                Rating=2},
+                            new Recipe {
+                                Title="Chesapeake Bay Pork Chops", 
+                                Type="Main", 
+                                Servings=8, 
+                                Duration=240, 
+                                Ingredients="1/2 cup vegetable oil, 1/2 cup apple cider vinegar, 1 tablespoon seafood seasoning (such as Old Bay), 2 cloves minced garlic, 1 tablespoon chopped fresh basil, 1 lime juiced, cracked black pepper to taste, 8 boneless pork chops 1 inch thick", 
+                                Instructions="Whisk together the vegetable oil, apple cider vinegar, seafood seasoning, minced garlic, basil, lime juice, and black pepper in a bowl, and pour into a resealable plastic bag. Add the pork chops, coat with the marinade, squeeze out excess air, and seal the bag. Marinate in the refrigerator for 4 to 6 hours, flipping periodically. Preheat an outdoor grill for medium-high heat, and lightly oil the grate. Remove the pork chops from the bags. Discard excess marinade. Grill until the pork is no longer pink in the center, 5 to 7 minutes per side. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C).", 
+                                Rating=4
+                                },
+                            new Recipe {
+                                Title="Vanilla Ice Cream V", 
+                                Type="Dessert", 
+                                Servings=32, 
+                                Duration=55, 
+                                Ingredients="2 quarts half-and-half cream,1/2 pint heavy cream, 1 1/2 cups white sugar, 4 teaspoons vanilla extract, 1 pinch salt", 
+                                Instructions="Combine half-and-half, cream, sugar, vanilla and salt in freezer container of ice cream maker. Freeze according to manufacturer's instructions.", 
+                                Rating=4
+                                },
+                            new Recipe {
+                                Title="Holiday Eggnog Pie", 
+                                Type="Dessert", 
+                                Servings=8, 
+                                Duration=110, 
+                                Ingredients="1 1/4 cups white sugar, 1/4 cup all-purpose flour, 2 cups eggnog, 3 eggs beaten, 1 teaspoon vanilla extract, 1/4 cup unsalted butter melted and cooled slightly, 1 (9 inch) prepared unbaked pie crust thawed", 
+                                Instructions="Preheat oven to 350 degrees F (175 degrees C). Mix the sugar and flour together in a mixing bowl. Beat in the eggnog, eggs, and vanilla to make a smooth mixture. Stir in the butter. Pour into the prepared pie crust. Bake in preheated oven until the custard is set, 35 to 40 minutes. Cool before serving.", 
+                                Rating=3
+                                }                    
                         }
                     },
                     new User {
